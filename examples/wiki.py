@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*-coding:utf-8 -*
+
 import wikipedia as wiki
 import regex as re
 wiki.set_lang("es")
