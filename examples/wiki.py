@@ -18,7 +18,8 @@ counter = 0
 
 for page in pages:
     a = wiki.page(page)
-
+    
+    page = page.strip().replace(" ", "_")
     array = a.content.split(" ")
     path = "./"
 

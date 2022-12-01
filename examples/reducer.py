@@ -9,7 +9,7 @@ def SaveWords (hashmap, lastTitle, wordMap):
             array.append([lastTitle,value])
             wordMap[word] = array
         else:
-            wordMap[word] = ([lastTitle,value])
+            wordMap[word] = ([[lastTitle,value]])
 
 wordMap = {}
 hashmap = {}
