@@ -1,5 +1,5 @@
 # Tarea 3 Sistemas Distribuidos - Alejandro Diaz
-Video : [link text] (https://youtu.be/XNSfb9WFVxM, "Tarea 3 SD - Alejandro Diaz")
+Video : ![link text] (https://youtu.be/XNSfb9WFVxM, "Tarea 3 SD - Alejandro Diaz")
 
 ##Funcionamiento
 Para buildear la imagen
