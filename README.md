@@ -1,7 +1,7 @@
 # Tarea 3 Sistemas Distribuidos - Alejandro Diaz
 Video : https://youtu.be/XNSfb9WFVxM
 
-##Funcionamiento
+# Funcionamiento
 Para buildear la imagen
 ```sh
 sudo docker build -t hadoop .
