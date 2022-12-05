@@ -5,9 +5,14 @@ RUN apt-get update -y \
         curl \
         ssh \
         python3 \
+	python3-pip \
     && apt-get clean
 RUN useradd -m hduser && echo "hduser:supergroup" | chpasswd && adduser hduser sudo && echo "hduser     ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers && cd /usr/bin/ && sudo ln -s python3 python
 COPY ssh_config /etc/ssh/ssh_config
+
+RUN pip3 install wikipedia
+RUN pip3 install regex
+RUN pip3 install unidecode
 
 WORKDIR /home/hduser
 USER hduser
