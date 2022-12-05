@@ -20,7 +20,11 @@ sudo docker exec -it hadoop bash
 4. Despues, crear las carpetas necesarias de hadoop
 ```sh
 hdfs dfs -mkdir /user
+```
+```sh
 hdfs dfs -mkdir /user/hduser
+```
+```sh
 hdfs dfs -mkdir input
 ```
 
